@@ -16,11 +16,22 @@ int main()
 
     if(bekertEgeszSzam % 2 == 0)
     {
-        printf("A bekert szam paros");
+        printf("A bekert szam paros\n");
     }
     else
     {
-        printf("A bekert szam paratlan");
+        printf("A bekert szam paratlan\n");
+    }
+
+    switch (bekertEgeszSzam % 2)
+    {
+        case 0:
+                printf("A bekert szam paros\n");
+                break;
+
+        case 1:
+                printf("A bekert szam paratlan\n");
+                break;
     }
 
     return 0;
