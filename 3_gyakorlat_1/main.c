@@ -4,6 +4,8 @@
 int main()
 {
     int bekertEgeszSzam;
+
+    //kiiratas, fejlecek
     printf("Bekert szam paritasanak ellenorzese\n");
 
     printf("Kerem adjon meg egy egesz szamot!\n");
@@ -14,6 +16,7 @@ int main()
     printf( bekertEgeszSzam % 2 == 0 ? "paros" : "paratlan");
     printf("\n");
 
+    //szelekcios utasitas
     if(bekertEgeszSzam % 2 == 0)
     {
         printf("A bekert szam paros\n");
@@ -23,6 +26,8 @@ int main()
         printf("A bekert szam paratlan\n");
     }
 
+    //tobbagu elagazas
+    //switch-es szerkezet
     switch (bekertEgeszSzam % 2)
     {
         case 0:
